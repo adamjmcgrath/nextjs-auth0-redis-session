@@ -28,15 +28,22 @@
   flex-grow: 1;
 }
 
-.title a {
+.description a, .title a {
   color: #0070f3;
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.description a:hover, .title a:hover,
+.description a:focus, .title a:focus,
+.description a:active, .title a:active {
   text-decoration: underline;
+}
+
+.main pre {
+  text-align: left;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  padding: 1em;
 }
 
 .title {
@@ -82,7 +89,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 300px;
 }
 
 .card:hover,
