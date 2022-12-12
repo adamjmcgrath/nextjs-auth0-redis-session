@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "file:auth0-nextjs-auth0-2.1.0-tmp.1.tgz",
+    "@auth0/nextjs-auth0": "^2.1.0-experimental-custom-store.0",
     "@types/node": "18.11.12",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.9",
