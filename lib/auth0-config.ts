@@ -23,7 +23,10 @@ const config = {
   session: {
     store: new Store(),
   },
-  backchannelLogout: true
+  backchannelLogout: true,
+  authorizationParams: {
+    scope: 'openid profile email offline_access',
+  }
 };
 
 export default config;
