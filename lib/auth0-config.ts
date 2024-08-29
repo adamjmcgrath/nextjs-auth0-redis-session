@@ -23,6 +23,7 @@ const config = {
   session: {
     store: new Store(),
   },
+  backchannelLogout: true
 };
 
 export default config;
